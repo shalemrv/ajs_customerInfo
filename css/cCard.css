@@ -1,0 +1,27 @@
+.cCard.gCont{
+
+     width:500px;
+     border-radius: 10px;
+     background-color: #323438;
+     padding:15px;
+
+	display:inline-grid;
+	grid-template-columns: 70px 70px 70px 70px 70px 70px;
+	grid-column-gap: 10px;
+	margin: 20px;
+	background-color: #13111c;
+	border: 3px solid black;
+	border-radius: 10px 30px 10px 30px;
+     min-height: 450px;
+   
+}
+
+/*#363a40*/
+
+/*#customersDiv{
+     box-shadow: 0 -4px 2px;
+}*/
+
+.valFont{
+     /*font-size: 25px;*/
+}

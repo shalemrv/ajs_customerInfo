@@ -1,0 +1,57 @@
+
+
+	.regForm{
+		margin: auto; 
+          margin-top: 30px;
+		display: grid;
+		padding: 25px;
+		border-radius: 10px;
+		border:3px solid black;
+		text-align: center;
+		grid-template-columns: 110px 110px 110px 110px ;
+		grid-column-gap:10px;
+		width:520px;
+		background-color: #13111c;
+          animation: fadeIn 1s;
+	}
+
+	
+	.rfLabel{
+		color: #828d9e;
+		font-size: 15px;
+		padding:5px;
+          margin-top: 10px;
+	}
+
+
+	.regForm label, .regForm input, .regForm select{
+		display: block;
+		text-align: left;
+		width:100%;
+	}
+
+
+	.regForm label{
+		padding:10px;
+	}
+
+	.regForm input, .regForm select{
+		border: none;
+		background-color: #383231;
+		border-radius: 3px;
+		padding: 10px;
+		font-size: 20px;
+		min-width: 50px;
+		box-shadow: 0 2px grey;
+		border:1px solid rgba(255, 255, 255, 0.5);
+          margin-bottom: 10px;
+	}
+
+	input.ng-touched input.ng-invalid{
+		border:1px solid rgba(255, 0, 0, 0.5);
+	}
+
+	.formMessage, .formMessage * {
+		font-size: 12px; 
+		color: #ffaea1;
+	}

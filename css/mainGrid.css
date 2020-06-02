@@ -1,0 +1,45 @@
+#mainLayoutGrid{
+     display: grid;
+     height: 100vh;
+     width: 100vw;
+    
+     grid-template-areas:
+          "nav     head     head      head      head      head      head"
+          "nav      pBody    pBody     pBody     pBody     pBody     pBody" 
+          "foot     foot     foot      foot      foot      foot      foot";
+     grid-row-gap: 0px;
+     grid-column-gap:0px;
+     /*border: 2px solid red;*/
+     overflow: hidden;
+}
+
+#mainLayoutGrid > header{
+     height:11vh;
+     grid-area: head;
+}
+
+#options{
+     grid-area: nav;
+     height:96vh;
+     width: 15vw;
+}
+
+#pageBody{
+     margin-top: 3vh;
+     height:82vh;
+     width: 85vw;
+     overflow-y: auto;
+     grid-area: pBody;
+     text-align: center;  
+}
+
+#debug{
+     grid-area: foot;
+     height: 4vh;
+     background-color: black;
+     padding:5px;
+     font-size:15px;
+     text-align: center;
+}
+
+

@@ -1,0 +1,52 @@
+/*Common classes*/
+
+
+.btn{
+     border-radius: 15px;
+     background-color:#ffffff;
+     border: none;
+     padding:10px 30px;
+     margin:20px;
+     margin-bottom: 0px;
+     font-size: 20px;
+     color: black;
+     font-weight: 700;
+}
+
+
+.btn-red{
+     background-color:#ff7a7a;
+}
+.btn-red:hover{
+     background-color: black;
+     color: #f57680;
+     text-shadow: 2px 2px 5px #black;
+}
+
+.btn-blue{
+     background-color: #4cd6fc;
+}
+
+.btn-blue:hover{
+     background-color: black;
+     color: #4cd6fc;
+     text-shadow: 2px 2px 5px #000000;
+}
+
+
+.btn-green:hover{
+     background-color:  #3cbf1f;
+     color: white;
+     text-shadow: 2px 2px 5px #000000;
+}
+
+
+@keyframes fadeIn{
+     from {opacity: 0;}
+     to   {opacity: 1;}
+}
+
+@keyframes fadeOut{
+     from {opacity: 1;}
+     to   {opacity: 0;}
+}

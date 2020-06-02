@@ -1,0 +1,68 @@
+#msgBox{
+     background-color: #e74c3c; /*Red*/
+     background-color: #008000;
+     border-radius: 10px; 
+     z-index: 1000;
+     position: fixed;
+     top: 15vh;
+     left: 25vw;
+    
+     display: grid;
+     grid-template-columns: 12vw 12vw 12vw 12vw;
+     grid-template-rows: 10vh 7vh 7vh 7vh;
+     /*grid-template-areas: 
+          "ico  mHead"
+          "ico  mHead"
+          "ico  mBody"
+          "ico  mBody"
+          "ico  mBody"
+     ;*/
+     grid-column-gap: 0px;
+     box-shadow: 0 0 50px black;
+
+     animation: fadeIn 1s;
+}
+
+#msgIco{
+     /*grid-area: ico;*/
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: black;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+     padding: 0 20px;
+
+}
+
+#msgHeading{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     /*grid-area: mHead;*/
+     font-size: 50px;
+     color: black;
+     background-color: white;
+     border-top-right-radius: 10px;
+     box-shadow: 0 5px 1px black;
+}
+
+#msgBody{
+     /*grid-area: mBody;*/
+     color: white;
+     text-shadow:0 0 10px black;
+     font-size: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 20px;
+     text-align : center;
+}
+
+.success{
+     background-color: #32a84c;
+}
+
+.fail{
+     background-color: #e74c3c;
+}

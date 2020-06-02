@@ -3,3 +3,6 @@ requests/randcountries.php
 ajs_custInfo.bat
 requests/_connect.php
 js/main (copy).js
+test/
+ztest/
+Todo.txt
