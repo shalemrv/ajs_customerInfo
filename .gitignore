@@ -1,4 +1,4 @@
-/requests/connect_db.php
-/requests/_connect_db.php
-/test
-/ztest
+requests/deldup.php
+requests/randcountries.php
+ajs_custInfo.bat
+requests/_connect.php
