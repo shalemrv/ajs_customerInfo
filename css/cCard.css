@@ -1,9 +1,9 @@
 .cCard.gCont{
 
-     width:500px;
-     border-radius: 10px;
-     background-color: #323438;
-     padding:15px;
+	width:500px;
+	border-radius: 10px;
+	background-color: #323438;
+	padding:15px;
 
 	display:inline-grid;
 	grid-template-columns: 70px 70px 70px 70px 70px 70px;
