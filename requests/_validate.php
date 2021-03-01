@@ -50,8 +50,6 @@
      $invalTitle = "Please check the ";
      $invalDesc = "";
 
-
-
      if(empty($fName))
      {
           exit("Failed to Update. Please check the First Name.");
